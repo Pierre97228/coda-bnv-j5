@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int addition(int num1, int num2)
+{
+    int result = num1 + num2;
+    return result;
+}
+
+int main()
+{
+    int num1 = 2;
+    int num2 = 2;
+    int result = addition(num1, num2);
+
+    printf("Result : %d\n", result);
+
+    return 0;
+}
